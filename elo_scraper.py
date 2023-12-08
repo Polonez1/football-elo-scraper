@@ -143,7 +143,7 @@ class EloParser:
 if "__main__" == __name__:
     elo = EloParser()
     elo.parse()
-    print(elo.season_hrefs)
+    # print(elo.season_hrefs)
 
 
 # powershell -ExecutionPolicy Bypass -File C:\iLegion\football_elo_scraper\venv\Scripts\Activate.ps1
