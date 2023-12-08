@@ -3,15 +3,18 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 import processing_data
 import json
 import pandas as pd
+import function_log as log
 
 
 class EloParser:
     def __init__(self):
         self.url: str = "http://elofootball.com/"
         self.country_hrefs: dict = {}
+        self.season_hrefs: dict = {}
         self.competition_data: dict = {}
         self.ranking_data: dict = {}
         self.matches_data: dict = {}
+        self.output_path = "./output/"
 
     def __get_season_string(self) -> str:
         season = (
@@ -31,8 +34,18 @@ class EloParser:
         append_dict[country][season] = {}
         append_dict[country][season] = json_data
 
-    def _season_hrefs_collector(self):
-        pass
+    def __season_hrefs_collector(self, country: str):
+        dropdown_menus = self.page.query_selector_all(".dropdown-menu")
+        country_hrefs_box = dropdown_menus[1]
+        self.season_hrefs[country] = {}
+        if country_hrefs_box:
+            hrefs_element = country_hrefs_box.query_selector_all("a")
+            for i in hrefs_element:
+                season = i.inner_text()
+                href = i.get_attribute("href")
+                # print(country, season, href)
+                self.season_hrefs[country][season] = {}
+                self.season_hrefs[country][season] = self.url + href
 
     def __collect_country_hrefs(self):
         dropdown_menus = self.page.query_selector_all(".dropdown-menu")
@@ -74,7 +87,9 @@ class EloParser:
             df=df, append_dict=self.competition_data, season=season, country=country
         )
 
-        with open("competition_data.json", "w", encoding="utf-8") as json_file:
+        with open(
+            f"{self.output_path}competition_data.json", "w", encoding="utf-8"
+        ) as json_file:
             json.dump(elo.competition_data, json_file, ensure_ascii=False, indent=2)
 
     def __collect_raking_data(self, season: str, country: str) -> None:
@@ -84,7 +99,9 @@ class EloParser:
             df=df, append_dict=self.ranking_data, season=season, country=country
         )
 
-        with open("raking_data.json", "w", encoding="utf-8") as json_file:
+        with open(
+            f"{self.output_path}raking_data.json", "w", encoding="utf-8"
+        ) as json_file:
             json.dump(elo.ranking_data, json_file, ensure_ascii=False, indent=2)
 
     def __collect_matches_data(self, season: str, country: str) -> None:
@@ -95,7 +112,9 @@ class EloParser:
             df=df, append_dict=self.matches_data, season=season, country=country
         )
 
-        with open("matches_data.json", "w", encoding="utf-8") as json_file:
+        with open(
+            f"{self.output_path}matches_data.json", "w", encoding="utf-8"
+        ) as json_file:
             json.dump(elo.matches_data, json_file, ensure_ascii=False, indent=2)
 
     def __collect_elo_data(self, hrefs: dict):
@@ -105,12 +124,12 @@ class EloParser:
             url = self.url + href
             self.page.goto(url, timeout=60000)
             season = self.__get_season_string()
+            self.__season_hrefs_collector(country=country)
             self.__collect_competition_data(season=season, country=country)
             self.__collect_raking_data(season=season, country=country)
             self.__collect_matches_data(season=season, country=country)
 
-            # break
-
+    @log.elapsed_time
     def parse(self):
         with sync_playwright() as playwright:
             browser = playwright.chromium.launch(headless=False)
@@ -124,6 +143,7 @@ class EloParser:
 if "__main__" == __name__:
     elo = EloParser()
     elo.parse()
+    print(elo.season_hrefs)
 
 
 # powershell -ExecutionPolicy Bypass -File C:\iLegion\football_elo_scraper\venv\Scripts\Activate.ps1
