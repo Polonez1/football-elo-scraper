@@ -90,36 +90,59 @@ class EloParser:
         with open(
             f"{self.output_path}competition_data.json", "w", encoding="utf-8"
         ) as json_file:
-            json.dump(elo.competition_data, json_file, ensure_ascii=False, indent=2)
+            json.dump(self.competition_data, json_file, ensure_ascii=False, indent=2)
 
     def __collect_raking_data(self, season: str, country: str) -> None:
-        headers, rows = self.__get_table_by_nr(table_index=2)
-        df = processing_data.transform_raking_data(columns=headers, rows=rows)
-        self.__append_data(
-            df=df, append_dict=self.ranking_data, season=season, country=country
-        )
-
-        with open(
-            f"{self.output_path}raking_data.json", "w", encoding="utf-8"
-        ) as json_file:
-            json.dump(elo.ranking_data, json_file, ensure_ascii=False, indent=2)
+        for i in range(0, 4):
+            col, rows = self.__get_table_by_nr(table_index=i)
+            if "Form (last 6)" in col:
+                headers, rows = self.__get_table_by_nr(table_index=i)
+                df = processing_data.transform_raking_data(columns=headers, rows=rows)
+                self.__append_data(
+                    df=df, append_dict=self.ranking_data, season=season, country=country
+                )
+                with open(
+                    f"{self.output_path}raking_data.json", "w", encoding="utf-8"
+                ) as json_file:
+                    json.dump(
+                        self.ranking_data, json_file, ensure_ascii=False, indent=2
+                    )
+            else:
+                headers = "No data"
+                rows = "No data"
+                # self.__append_data(
+                #    df=df, append_dict=self.ranking_data, season=season, country=country
+                # )
 
     def __collect_matches_data(self, season: str, country: str) -> None:
-        headers, rows = self.__get_table_by_nr(table_index=4)
-        data_dict = {"headers": headers, "rows": rows}
-        df = processing_data.transform_matches_data(columns=headers, rows=rows)
-        self.__append_data(
-            df=df, append_dict=self.matches_data, season=season, country=country
-        )
+        for i in range(0, 4):
+            col, rows = self.__get_table_by_nr(table_index=i)
+            if "Away" in col:
+                headers, rows = self.__get_table_by_nr(table_index=i)
+                df = processing_data.transform_matches_data(columns=headers, rows=rows)
+                self.__append_data(
+                    df=df, append_dict=self.ranking_data, season=season, country=country
+                )
 
-        with open(
-            f"{self.output_path}matches_data.json", "w", encoding="utf-8"
-        ) as json_file:
-            json.dump(elo.matches_data, json_file, ensure_ascii=False, indent=2)
+                with open(
+                    f"{self.output_path}matches_data.json", "w", encoding="utf-8"
+                ) as json_file:
+                    json.dump(
+                        self.matches_data, json_file, ensure_ascii=False, indent=2
+                    )
+
+            else:
+                headers = "No data"
+                rows = "No data"
+                # self.__append_data(
+                #    df=df, append_dict=self.ranking_data, season=season, country=country
+                # )
 
     def __collect_elo_data(self, hrefs: dict):
         for i in hrefs.items():
             country = i[0]
+
+            print(country)
             href = i[1]
             url = self.url + href
             self.page.goto(url, timeout=60000)
@@ -128,6 +151,8 @@ class EloParser:
             self.__collect_competition_data(season=season, country=country)
             self.__collect_raking_data(season=season, country=country)
             self.__collect_matches_data(season=season, country=country)
+
+            # break
 
     @log.elapsed_time
     def parse(self):
