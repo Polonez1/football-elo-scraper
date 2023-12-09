@@ -157,7 +157,7 @@ class EloParser:
     @log.elapsed_time
     def parse(self):
         with sync_playwright() as playwright:
-            browser = playwright.chromium.launch(headless=False)
+            browser = playwright.chromium.launch(headless=True)
             self.context = browser.new_context()
             self.page = self.context.new_page()
             self.page.goto(self.url, timeout=60000)
