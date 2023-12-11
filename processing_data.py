@@ -42,6 +42,7 @@ def transform_competition_data(columns, rows):
     df = pd.DataFrame(rows, columns=columns)
     df = __rename_competition(df)
     df = __split_competition_avg(df)
+    df = df.replace("", None)
 
     return df
 
@@ -56,8 +57,8 @@ def __rename_raking_col(df: pd.DataFrame) -> pd.DataFrame:
             "Rating": "rating",
             "Record:\nSeason": "season_record",
             "All time": "all_time",
-            "+/-:\n1M": "1m",
-            "1Y": "1y",
+            "+/-:\n1M": "month_dff",
+            "1Y": "year_diff",
             "Season-to-date +/-:\nTotal": "total",
         },
         inplace=False,
@@ -78,6 +79,7 @@ def __rename_raking_col(df: pd.DataFrame) -> pd.DataFrame:
 def transform_raking_data(columns, rows) -> pd.DataFrame:
     df = pd.DataFrame(rows, columns=columns)
     df = __rename_raking_col(df)
+    df = df.replace("", None)
 
     return df
 
@@ -142,5 +144,6 @@ def transform_matches_data(columns, rows) -> pd.DataFrame:
     df = __rename_matches_col(df)
     df = __split_goals(df)
     df = __add_match_result(df)
+    df = df.replace("", None)
 
     return df

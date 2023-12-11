@@ -13,13 +13,13 @@
         "rating": "2372",
         "season_record": "2402",
         "all_time": "2409",
-        "1m": "-30",
-        "1y": "+46",
+        "month_dff": "-30",
+        "year_diff": "+46",
         "total": "-29",
         "League": "-37",
         "Cup": "-17",
         "Europe": "+25",
-        "UEFA": ""
+        "UEFA": null
       },
       {
         "Nr": "5",
@@ -33,13 +33,13 @@
         "rating": "2245",
         "season_record": "2254",
         "all_time": "2384",
-        "1m": "-1",
-        "1y": "-73",
+        "month_dff": "-1",
+        "year_diff": "-73",
         "total": "+29",
         "League": "+32",
         "Cup": "+4",
         "Europe": "-7",
-        "UEFA": ""
+        "UEFA": null
       },
       {
         "Nr": "6",
@@ -53,13 +53,13 @@
         "rating": "2238",
         "season_record": "2238",
         "all_time": "2252",
-        "1m": "+32",
-        "1y": "+50",
+        "month_dff": "+32",
+        "year_diff": "+50",
         "total": "+57",
         "League": "+35",
         "Cup": "-2",
         "Europe": "+24",
-        "UEFA": ""
+        "UEFA": null
       },
       {
         "Nr": "14",
@@ -73,13 +73,13 @@
         "rating": "2156",
         "season_record": "2175",
         "all_time": "2175",
-        "1m": "-2",
-        "1y": "+66",
+        "month_dff": "-2",
+        "year_diff": "+66",
         "total": "+31",
         "League": "+15",
         "Cup": "+26",
         "Europe": "-10",
-        "UEFA": ""
+        "UEFA": null
       },
       {
         "Nr": "18",
@@ -93,13 +93,13 @@
         "rating": "2128",
         "season_record": "2128",
         "all_time": "2128",
-        "1m": "+36",
-        "1y": "+147",
+        "month_dff": "+36",
+        "year_diff": "+147",
         "total": "+64",
         "League": "+65",
         "Cup": "-12",
         "Europe": "+11",
-        "UEFA": ""
+        "UEFA": null
       },
       {
         "Nr": "20",
@@ -113,13 +113,13 @@
         "rating": "2106",
         "season_record": "2122",
         "all_time": "2122",
-        "1m": "+23",
-        "1y": "+56",
+        "month_dff": "+23",
+        "year_diff": "+56",
         "total": "+13",
         "League": "+7",
         "Cup": "-8",
         "Europe": "+14",
-        "UEFA": ""
+        "UEFA": null
       },
       {
         "Nr": "22",
@@ -133,13 +133,13 @@
         "rating": "2095",
         "season_record": "2169",
         "all_time": "2277",
-        "1m": "+1",
-        "1y": "-30",
+        "month_dff": "+1",
+        "year_diff": "-30",
         "total": "-71",
         "League": "-18",
         "Cup": "-10",
         "Europe": "-43",
-        "UEFA": ""
+        "UEFA": null
       },
       {
         "Nr": "23",
@@ -153,13 +153,13 @@
         "rating": "2089",
         "season_record": "2133",
         "all_time": "2237",
-        "1m": "-17",
-        "1y": "-29",
+        "month_dff": "-17",
+        "year_diff": "-29",
         "total": "+40",
         "League": "+40",
         "Cup": "0",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "26",
@@ -173,13 +173,13 @@
         "rating": "2061",
         "season_record": "2079",
         "all_time": "2127",
-        "1m": "+17",
-        "1y": "+52",
+        "month_dff": "+17",
+        "year_diff": "+52",
         "total": "+30",
         "League": "0",
         "Cup": "+16",
         "Europe": "+14",
-        "UEFA": ""
+        "UEFA": null
       },
       {
         "Nr": "27",
@@ -193,13 +193,13 @@
         "rating": "2058",
         "season_record": "2066",
         "all_time": "2298",
-        "1m": "-2",
-        "1y": "-128",
+        "month_dff": "-2",
+        "year_diff": "-128",
         "total": "+21",
         "League": "+11",
         "Cup": "+10",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "36",
@@ -213,13 +213,13 @@
         "rating": "2039",
         "season_record": "2083",
         "all_time": "2083",
-        "1m": "-16",
-        "1y": "+72",
+        "month_dff": "-16",
+        "year_diff": "+72",
         "total": "-29",
         "League": "-16",
         "Cup": "-13",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "55",
@@ -233,13 +233,13 @@
         "rating": "1976",
         "season_record": "1981",
         "all_time": "2001",
-        "1m": "+10",
-        "1y": "+90",
+        "month_dff": "+10",
+        "year_diff": "+90",
         "total": "+6",
         "League": "-7",
         "Cup": "+13",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "59",
@@ -253,13 +253,13 @@
         "rating": "1970",
         "season_record": "1995",
         "all_time": "2121",
-        "1m": "-9",
-        "1y": "-66",
+        "month_dff": "-9",
+        "year_diff": "-66",
         "total": "+34",
         "League": "+32",
         "Cup": "+2",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "66",
@@ -273,16 +273,16 @@
         "rating": "1955",
         "season_record": "2006",
         "all_time": "2023",
-        "1m": "-44",
-        "1y": "-57",
+        "month_dff": "-44",
+        "year_diff": "-57",
         "total": "-32",
         "League": "-32",
         "Cup": "0",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
-        "Nr": "",
+        "Nr": null,
         "team": "Wolverhampton Wanderers",
         "form1": "+3",
         "form2": "-11",
@@ -293,13 +293,13 @@
         "rating": "1955",
         "season_record": "1959",
         "all_time": "2134",
-        "1m": "+8",
-        "1y": "+52",
+        "month_dff": "+8",
+        "year_diff": "+52",
         "total": "+3",
         "League": "+9",
         "Cup": "-6",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "71",
@@ -313,13 +313,13 @@
         "rating": "1950",
         "season_record": "1954",
         "all_time": "2177",
-        "1m": "+10",
-        "1y": "+37",
+        "month_dff": "+10",
+        "year_diff": "+37",
         "total": "+33",
         "League": "+12",
         "Cup": "+21",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "83",
@@ -333,13 +333,13 @@
         "rating": "1919",
         "season_record": "1919",
         "all_time": "1962",
-        "1m": "+65",
-        "1y": "+28",
+        "month_dff": "+65",
+        "year_diff": "+28",
         "total": "+46",
         "League": "+38",
         "Cup": "+8",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "96",
@@ -353,13 +353,13 @@
         "rating": "1889",
         "season_record": "1924",
         "all_time": "2195",
-        "1m": "-35",
-        "1y": "+7",
+        "month_dff": "-35",
+        "year_diff": "+7",
         "total": "-13",
         "League": "-4",
         "Cup": "-9",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "108",
@@ -373,13 +373,13 @@
         "rating": "1876",
         "season_record": "1958",
         "all_time": "2076",
-        "1m": "-3",
-        "1y": "-27",
+        "month_dff": "-3",
+        "year_diff": "-27",
         "total": "-86",
         "League": "-89",
         "Cup": "+3",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "109",
@@ -393,13 +393,13 @@
         "rating": "1874",
         "season_record": "1874",
         "all_time": "2194",
-        "1m": "+9",
-        "1y": "-54",
+        "month_dff": "+9",
+        "year_diff": "-54",
         "total": "+15",
         "League": "+19",
         "Cup": "-4",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "144",
@@ -413,13 +413,13 @@
         "rating": "1829",
         "season_record": "1845",
         "all_time": "2150",
-        "1m": "+2",
-        "1y": "+183",
+        "month_dff": "+2",
+        "year_diff": "+183",
         "total": "+66",
         "League": "+69",
         "Cup": "-3",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "147",
@@ -433,13 +433,13 @@
         "rating": "1827",
         "season_record": "1844",
         "all_time": "2063",
-        "1m": "+14",
-        "1y": "-77",
+        "month_dff": "+14",
+        "year_diff": "-77",
         "total": "-8",
         "League": "+12",
         "Cup": "-20",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "173",
@@ -453,13 +453,13 @@
         "rating": "1800",
         "season_record": "1862",
         "all_time": "1997",
-        "1m": "-25",
-        "1y": "-34",
+        "month_dff": "-25",
+        "year_diff": "-34",
         "total": "-72",
         "League": "-66",
         "Cup": "-6",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "177",
@@ -473,13 +473,13 @@
         "rating": "1795",
         "season_record": "1801",
         "all_time": "2033",
-        "1m": "+5",
-        "1y": "+57",
+        "month_dff": "+5",
+        "year_diff": "+57",
         "total": "-5",
         "League": "+5",
         "Cup": "-10",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "190",
@@ -493,13 +493,13 @@
         "rating": "1783",
         "season_record": "1794",
         "all_time": "2019",
-        "1m": "+8",
-        "1y": "+49",
+        "month_dff": "+8",
+        "year_diff": "+49",
         "total": "+7",
         "League": "-22",
         "Cup": "+29",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "203",
@@ -513,13 +513,13 @@
         "rating": "1768",
         "season_record": "1776",
         "all_time": "2123",
-        "1m": "+11",
-        "1y": "+60",
+        "month_dff": "+11",
+        "year_diff": "+60",
         "total": "+54",
         "League": "+60",
         "Cup": "-6",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "230",
@@ -533,13 +533,13 @@
         "rating": "1738",
         "season_record": "1789",
         "all_time": "2042",
-        "1m": "-23",
-        "1y": "+25",
+        "month_dff": "-23",
+        "year_diff": "+25",
         "total": "-13",
         "League": "-6",
         "Cup": "-7",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "235",
@@ -553,13 +553,13 @@
         "rating": "1735",
         "season_record": "1753",
         "all_time": "2094",
-        "1m": "-4",
-        "1y": "-3",
+        "month_dff": "-4",
+        "year_diff": "-3",
         "total": "+4",
         "League": "-9",
         "Cup": "+13",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "247",
@@ -573,13 +573,13 @@
         "rating": "1721",
         "season_record": "1763",
         "all_time": "2004",
-        "1m": "+20",
-        "1y": "-9",
+        "month_dff": "+20",
+        "year_diff": "-9",
         "total": "-43",
         "League": "-29",
         "Cup": "-14",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "253",
@@ -593,13 +593,13 @@
         "rating": "1716",
         "season_record": "1716",
         "all_time": "2026",
-        "1m": "+26",
-        "1y": "-48",
+        "month_dff": "+26",
+        "year_diff": "-48",
         "total": "+20",
         "League": "+23",
         "Cup": "-3",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "257",
@@ -613,16 +613,16 @@
         "rating": "1714",
         "season_record": "1744",
         "all_time": "1986",
-        "1m": "-18",
-        "1y": "-11",
+        "month_dff": "-18",
+        "year_diff": "-11",
         "total": "-27",
         "League": "-23",
         "Cup": "-4",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
-        "Nr": "",
+        "Nr": null,
         "team": "Hull City",
         "form1": "+7",
         "form2": "-10",
@@ -633,13 +633,13 @@
         "rating": "1714",
         "season_record": "1727",
         "all_time": "1899",
-        "1m": "+2",
-        "1y": "+102",
+        "month_dff": "+2",
+        "year_diff": "+102",
         "total": "+34",
         "League": "+48",
         "Cup": "-14",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "275",
@@ -653,13 +653,13 @@
         "rating": "1704",
         "season_record": "1760",
         "all_time": "2018",
-        "1m": "+23",
-        "1y": "-73",
+        "month_dff": "+23",
+        "year_diff": "-73",
         "total": "+3",
         "League": "-10",
         "Cup": "+13",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "304",
@@ -673,13 +673,13 @@
         "rating": "1686",
         "season_record": "1703",
         "all_time": "1935",
-        "1m": "-17",
-        "1y": "+51",
+        "month_dff": "-17",
+        "year_diff": "+51",
         "total": "+47",
         "League": "+46",
         "Cup": "+1",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "306",
@@ -693,13 +693,13 @@
         "rating": "1685",
         "season_record": "1712",
         "all_time": "1936",
-        "1m": "-8",
-        "1y": "+37",
+        "month_dff": "-8",
+        "year_diff": "+37",
         "total": "-13",
         "League": "-9",
         "Cup": "-4",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "316",
@@ -713,13 +713,13 @@
         "rating": "1682",
         "season_record": "1697",
         "all_time": "1797",
-        "1m": "+13",
-        "1y": "+61",
+        "month_dff": "+13",
+        "year_diff": "+61",
         "total": "+3",
         "League": "+5",
         "Cup": "-2",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "346",
@@ -733,13 +733,13 @@
         "rating": "1667",
         "season_record": "1739",
         "all_time": "2092",
-        "1m": "-33",
-        "1y": "-54",
+        "month_dff": "-33",
+        "year_diff": "-54",
         "total": "-15",
         "League": "-9",
         "Cup": "-6",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "349",
@@ -753,13 +753,13 @@
         "rating": "1666",
         "season_record": "1732",
         "all_time": "1942",
-        "1m": "-8",
-        "1y": "-66",
+        "month_dff": "-8",
+        "year_diff": "-66",
         "total": "-52",
         "League": "-30",
         "Cup": "-22",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "365",
@@ -773,13 +773,13 @@
         "rating": "1660",
         "season_record": "1660",
         "all_time": "2043",
-        "1m": "+15",
-        "1y": "+95",
+        "month_dff": "+15",
+        "year_diff": "+95",
         "total": "+42",
         "League": "+47",
         "Cup": "-5",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "368",
@@ -793,13 +793,13 @@
         "rating": "1659",
         "season_record": "1704",
         "all_time": "2041",
-        "1m": "-42",
-        "1y": "-34",
+        "month_dff": "-42",
+        "year_diff": "-34",
         "total": "-26",
         "League": "-37",
         "Cup": "+11",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "373",
@@ -813,13 +813,13 @@
         "rating": "1657",
         "season_record": "1685",
         "all_time": "1907",
-        "1m": "+16",
-        "1y": "-31",
+        "month_dff": "+16",
+        "year_diff": "-31",
         "total": "-40",
         "League": "-32",
         "Cup": "-8",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "395",
@@ -833,13 +833,13 @@
         "rating": "1645",
         "season_record": "1667",
         "all_time": "2051",
-        "1m": "-6",
-        "1y": "+44",
+        "month_dff": "-6",
+        "year_diff": "+44",
         "total": "+50",
         "League": "+63",
         "Cup": "-13",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "405",
@@ -853,13 +853,13 @@
         "rating": "1641",
         "season_record": "1653",
         "all_time": "1746",
-        "1m": "+10",
-        "1y": "+68",
+        "month_dff": "+10",
+        "year_diff": "+68",
         "total": "+18",
         "League": "+31",
         "Cup": "-13",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "428",
@@ -873,13 +873,13 @@
         "rating": "1626",
         "season_record": "1676",
         "all_time": "1997",
-        "1m": "-11",
-        "1y": "-34",
+        "month_dff": "-11",
+        "year_diff": "-34",
         "total": "+9",
         "League": "+15",
         "Cup": "-6",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "431",
@@ -893,13 +893,13 @@
         "rating": "1624",
         "season_record": "1643",
         "all_time": "1849",
-        "1m": "-8",
-        "1y": "+6",
+        "month_dff": "-8",
+        "year_diff": "+6",
         "total": "-13",
         "League": "-7",
         "Cup": "-6",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "459",
@@ -913,13 +913,13 @@
         "rating": "1609",
         "season_record": "1629",
         "all_time": "2089",
-        "1m": "+2",
-        "1y": "-43",
+        "month_dff": "+2",
+        "year_diff": "-43",
         "total": "-7",
         "League": "+36",
         "Cup": "-43",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "462",
@@ -933,13 +933,13 @@
         "rating": "1608",
         "season_record": "1705",
         "all_time": "2060",
-        "1m": "-2",
-        "1y": "-94",
+        "month_dff": "-2",
+        "year_diff": "-94",
         "total": "-106",
         "League": "-95",
         "Cup": "-11",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "473",
@@ -953,16 +953,16 @@
         "rating": "1603",
         "season_record": "1630",
         "all_time": "1965",
-        "1m": "+5",
-        "1y": "-13",
+        "month_dff": "+5",
+        "year_diff": "-13",
         "total": "+11",
         "League": "-4",
         "Cup": "+15",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
-        "Nr": "",
+        "Nr": null,
         "team": "Blackpool FC",
         "form1": "-1",
         "form2": "+7",
@@ -973,13 +973,13 @@
         "rating": "1603",
         "season_record": "1619",
         "all_time": "2014",
-        "1m": "+12",
-        "1y": "-19",
+        "month_dff": "+12",
+        "year_diff": "-19",
         "total": "+11",
         "League": "-9",
         "Cup": "+20",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "520",
@@ -993,13 +993,13 @@
         "rating": "1582",
         "season_record": "1591",
         "all_time": "2091",
-        "1m": "+38",
-        "1y": "-109",
+        "month_dff": "+38",
+        "year_diff": "-109",
         "total": "+7",
         "League": "+14",
         "Cup": "-7",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "521",
@@ -1013,13 +1013,13 @@
         "rating": "1580",
         "season_record": "1615",
         "all_time": "1814",
-        "1m": "-7",
-        "1y": "-73",
+        "month_dff": "-7",
+        "year_diff": "-73",
         "total": "-45",
         "League": "-32",
         "Cup": "-13",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "546",
@@ -1033,13 +1033,13 @@
         "rating": "1569",
         "season_record": "1584",
         "all_time": "1936",
-        "1m": "-4",
-        "1y": "-17",
+        "month_dff": "-4",
+        "year_diff": "-17",
         "total": "+86",
         "League": "+85",
         "Cup": "+1",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "579",
@@ -1053,13 +1053,13 @@
         "rating": "1555",
         "season_record": "1591",
         "all_time": "1767",
-        "1m": "+15",
-        "1y": "+13",
+        "month_dff": "+15",
+        "year_diff": "+13",
         "total": "+7",
         "League": "+10",
         "Cup": "-3",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "603",
@@ -1073,13 +1073,13 @@
         "rating": "1545",
         "season_record": "1550",
         "all_time": "1640",
-        "1m": "+37",
-        "1y": "+114",
+        "month_dff": "+37",
+        "year_diff": "+114",
         "total": "+102",
         "League": "+98",
         "Cup": "+4",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "634",
@@ -1093,13 +1093,13 @@
         "rating": "1533",
         "season_record": "1559",
         "all_time": "1793",
-        "1m": "-11",
-        "1y": "+103",
+        "month_dff": "-11",
+        "year_diff": "+103",
         "total": "+41",
         "League": "+42",
         "Cup": "-1",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "665",
@@ -1113,13 +1113,13 @@
         "rating": "1521",
         "season_record": "1546",
         "all_time": "1950",
-        "1m": "-9",
-        "1y": "+18",
+        "month_dff": "-9",
+        "year_diff": "+18",
         "total": "-20",
         "League": "+12",
         "Cup": "-32",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "682",
@@ -1133,13 +1133,13 @@
         "rating": "1514",
         "season_record": "1615",
         "all_time": "1991",
-        "1m": "-4",
-        "1y": "-114",
+        "month_dff": "-4",
+        "year_diff": "-114",
         "total": "-91",
         "League": "-103",
         "Cup": "+12",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "716",
@@ -1153,13 +1153,13 @@
         "rating": "1500",
         "season_record": "1569",
         "all_time": "1662",
-        "1m": "-56",
-        "1y": "-70",
+        "month_dff": "-56",
+        "year_diff": "-70",
         "total": "-61",
         "League": "-47",
         "Cup": "-14",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "722",
@@ -1173,13 +1173,13 @@
         "rating": "1497",
         "season_record": "1525",
         "all_time": "1712",
-        "1m": "-3",
-        "1y": "+75",
+        "month_dff": "-3",
+        "year_diff": "+75",
         "total": "+40",
         "League": "+54",
         "Cup": "-14",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "743",
@@ -1193,13 +1193,13 @@
         "rating": "1483",
         "season_record": "1491",
         "all_time": "1783",
-        "1m": "+3",
-        "1y": "+9",
+        "month_dff": "+3",
+        "year_diff": "+9",
         "total": "+42",
         "League": "+44",
         "Cup": "-2",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "749",
@@ -1213,13 +1213,13 @@
         "rating": "1481",
         "season_record": "1484",
         "all_time": "1754",
-        "1m": "+4",
-        "1y": "+138",
+        "month_dff": "+4",
+        "year_diff": "+138",
         "total": "+60",
         "League": "+45",
         "Cup": "+15",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "808",
@@ -1233,16 +1233,16 @@
         "rating": "1462",
         "season_record": "1491",
         "all_time": "1824",
-        "1m": "-29",
-        "1y": "0",
+        "month_dff": "-29",
+        "year_diff": "0",
         "total": "-1",
         "League": "+3",
         "Cup": "-4",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
-        "Nr": "",
+        "Nr": null,
         "team": "Shrewsbury Town",
         "form1": "-11",
         "form2": "+9",
@@ -1253,13 +1253,13 @@
         "rating": "1462",
         "season_record": "1489",
         "all_time": "1797",
-        "1m": "+23",
-        "1y": "-56",
+        "month_dff": "+23",
+        "year_diff": "-56",
         "total": "-20",
         "League": "-35",
         "Cup": "+15",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "826",
@@ -1273,13 +1273,13 @@
         "rating": "1453",
         "season_record": "1455",
         "all_time": "1740",
-        "1m": "+34",
-        "1y": "+125",
+        "month_dff": "+34",
+        "year_diff": "+125",
         "total": "+117",
         "League": "+78",
         "Cup": "+39",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "830",
@@ -1293,13 +1293,13 @@
         "rating": "1452",
         "season_record": "1483",
         "all_time": "1827",
-        "1m": "+22",
-        "1y": "-16",
+        "month_dff": "+22",
+        "year_diff": "-16",
         "total": "-12",
         "League": "+14",
         "Cup": "-26",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "833",
@@ -1313,13 +1313,13 @@
         "rating": "1451",
         "season_record": "1517",
         "all_time": "2035",
-        "1m": "+12",
-        "1y": "-87",
+        "month_dff": "+12",
+        "year_diff": "-87",
         "total": "-50",
         "League": "-31",
         "Cup": "-19",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "851",
@@ -1333,13 +1333,13 @@
         "rating": "1444",
         "season_record": "1469",
         "all_time": "1807",
-        "1m": "+15",
-        "1y": "-57",
+        "month_dff": "+15",
+        "year_diff": "-57",
         "total": "+36",
         "League": "-6",
         "Cup": "+42",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "867",
@@ -1353,16 +1353,16 @@
         "rating": "1439",
         "season_record": "1456",
         "all_time": "1470",
-        "1m": "-17",
-        "1y": "+36",
+        "month_dff": "-17",
+        "year_diff": "+36",
         "total": "+17",
         "League": "-27",
         "Cup": "+44",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
-        "Nr": "",
+        "Nr": null,
         "team": "Burton Albion",
         "form1": "-3",
         "form2": "+1",
@@ -1373,13 +1373,13 @@
         "rating": "1439",
         "season_record": "1503",
         "all_time": "1658",
-        "1m": "-52",
-        "1y": "+30",
+        "month_dff": "-52",
+        "year_diff": "+30",
         "total": "-47",
         "League": "-24",
         "Cup": "-23",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "875",
@@ -1393,13 +1393,13 @@
         "rating": "1436",
         "season_record": "1522",
         "all_time": "1618",
-        "1m": "-30",
-        "1y": "-30",
+        "month_dff": "-30",
+        "year_diff": "-30",
         "total": "-86",
         "League": "-66",
         "Cup": "-20",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "890",
@@ -1413,13 +1413,13 @@
         "rating": "1430",
         "season_record": "1466",
         "all_time": "1781",
-        "1m": "-15",
-        "1y": "+11",
+        "month_dff": "-15",
+        "year_diff": "+11",
         "total": "-1",
         "League": "-16",
         "Cup": "+15",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "896",
@@ -1433,13 +1433,13 @@
         "rating": "1428",
         "season_record": "1548",
         "all_time": "1627",
-        "1m": "-20",
-        "1y": "-75",
+        "month_dff": "-20",
+        "year_diff": "-75",
         "total": "-66",
         "League": "-57",
         "Cup": "-9",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "949",
@@ -1453,13 +1453,13 @@
         "rating": "1409",
         "season_record": "1427",
         "all_time": "1616",
-        "1m": "+25",
-        "1y": "+77",
+        "month_dff": "+25",
+        "year_diff": "+77",
         "total": "+107",
         "League": "+103",
         "Cup": "+4",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "955",
@@ -1473,13 +1473,13 @@
         "rating": "1407",
         "season_record": "1482",
         "all_time": "1525",
-        "1m": "+18",
-        "1y": "-67",
+        "month_dff": "+18",
+        "year_diff": "-67",
         "total": "-82",
         "League": "-55",
         "Cup": "-27",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "967",
@@ -1493,13 +1493,13 @@
         "rating": "1403",
         "season_record": "1434",
         "all_time": "1898",
-        "1m": "-16",
-        "1y": "+64",
+        "month_dff": "-16",
+        "year_diff": "+64",
         "total": "+13",
         "League": "+30",
         "Cup": "-17",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "995",
@@ -1513,13 +1513,13 @@
         "rating": "1395",
         "season_record": "1433",
         "all_time": "1833",
-        "1m": "-18",
-        "1y": "+17",
+        "month_dff": "-18",
+        "year_diff": "+17",
         "total": "-30",
         "League": "-14",
         "Cup": "-16",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1002",
@@ -1533,13 +1533,13 @@
         "rating": "1393",
         "season_record": "1452",
         "all_time": "1453",
-        "1m": "-33",
-        "1y": "0",
+        "month_dff": "-33",
+        "year_diff": "0",
         "total": "-40",
         "League": "-59",
         "Cup": "+19",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1029",
@@ -1553,13 +1553,13 @@
         "rating": "1384",
         "season_record": "1436",
         "all_time": "1847",
-        "1m": "+2",
-        "1y": "+7",
+        "month_dff": "+2",
+        "year_diff": "+7",
         "total": "-42",
         "League": "-32",
         "Cup": "-10",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1036",
@@ -1573,13 +1573,13 @@
         "rating": "1381",
         "season_record": "1381",
         "all_time": "1711",
-        "1m": "+17",
-        "1y": "+85",
+        "month_dff": "+17",
+        "year_diff": "+85",
         "total": "+111",
         "League": "+85",
         "Cup": "+26",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1044",
@@ -1593,13 +1593,13 @@
         "rating": "1379",
         "season_record": "1438",
         "all_time": "1750",
-        "1m": "+18",
-        "1y": "+69",
+        "month_dff": "+18",
+        "year_diff": "+69",
         "total": "+4",
         "League": "-33",
         "Cup": "+37",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1082",
@@ -1613,13 +1613,13 @@
         "rating": "1366",
         "season_record": "1407",
         "all_time": "1695",
-        "1m": "+16",
-        "1y": "+4",
+        "month_dff": "+16",
+        "year_diff": "+4",
         "total": "-11",
         "League": "-30",
         "Cup": "+19",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1084",
@@ -1633,13 +1633,13 @@
         "rating": "1365",
         "season_record": "1418",
         "all_time": "1602",
-        "1m": "-36",
-        "1y": "-100",
+        "month_dff": "-36",
+        "year_diff": "-100",
         "total": "-37",
         "League": "-20",
         "Cup": "-17",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1098",
@@ -1653,13 +1653,13 @@
         "rating": "1361",
         "season_record": "1369",
         "all_time": "1534",
-        "1m": "+14",
-        "1y": "+7",
+        "month_dff": "+14",
+        "year_diff": "+7",
         "total": "+100",
         "League": "+69",
         "Cup": "+31",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1102",
@@ -1673,13 +1673,13 @@
         "rating": "1359",
         "season_record": "1410",
         "all_time": "1852",
-        "1m": "+18",
-        "1y": "-53",
+        "month_dff": "+18",
+        "year_diff": "-53",
         "total": "+2",
         "League": "+27",
         "Cup": "-25",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1165",
@@ -1693,13 +1693,13 @@
         "rating": "1335",
         "season_record": "1389",
         "all_time": "1796",
-        "1m": "+16",
-        "1y": "-16",
+        "month_dff": "+16",
+        "year_diff": "-16",
         "total": "-40",
         "League": "-37",
         "Cup": "-3",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1242",
@@ -1713,13 +1713,13 @@
         "rating": "1312",
         "season_record": "1342",
         "all_time": "1368",
-        "1m": "+1",
-        "1y": "+34",
+        "month_dff": "+1",
+        "year_diff": "+34",
         "total": "-12",
         "League": "-11",
         "Cup": "-1",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1259",
@@ -1733,13 +1733,13 @@
         "rating": "1307",
         "season_record": "1346",
         "all_time": "1568",
-        "1m": "+11",
-        "1y": "-9",
+        "month_dff": "+11",
+        "year_diff": "-9",
         "total": "+24",
         "League": "+30",
         "Cup": "-6",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1265",
@@ -1753,13 +1753,13 @@
         "rating": "1303",
         "season_record": "1331",
         "all_time": "1828",
-        "1m": "+34",
-        "1y": "-78",
+        "month_dff": "+34",
+        "year_diff": "-78",
         "total": "-25",
         "League": "-27",
         "Cup": "+2",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1266",
@@ -1773,13 +1773,13 @@
         "rating": "1301",
         "season_record": "1342",
         "all_time": "1728",
-        "1m": "-29",
-        "1y": "-92",
+        "month_dff": "-29",
+        "year_diff": "-92",
         "total": "-18",
         "League": "-13",
         "Cup": "-5",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1271",
@@ -1793,13 +1793,13 @@
         "rating": "1299",
         "season_record": "1300",
         "all_time": "1744",
-        "1m": "+12",
-        "1y": "-31",
+        "month_dff": "+12",
+        "year_diff": "-31",
         "total": "+41",
         "League": "+14",
         "Cup": "+27",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1339",
@@ -1813,13 +1813,13 @@
         "rating": "1276",
         "season_record": "1326",
         "all_time": "1740",
-        "1m": "-37",
-        "1y": "+14",
+        "month_dff": "-37",
+        "year_diff": "+14",
         "total": "-38",
         "League": "-40",
         "Cup": "+2",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1355",
@@ -1833,16 +1833,16 @@
         "rating": "1269",
         "season_record": "1269",
         "all_time": "1269",
-        "1m": "+15",
-        "1y": "+111",
+        "month_dff": "+15",
+        "year_diff": "+111",
         "total": "+41",
         "League": "+48",
         "Cup": "-7",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
-        "Nr": "",
+        "Nr": null,
         "team": "Sutton United",
         "form1": "+12",
         "form2": "+4",
@@ -1853,13 +1853,13 @@
         "rating": "1269",
         "season_record": "1337",
         "all_time": "1406",
-        "1m": "+9",
-        "1y": "-69",
+        "month_dff": "+9",
+        "year_diff": "-69",
         "total": "-51",
         "League": "-66",
         "Cup": "+15",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1421",
@@ -1873,13 +1873,13 @@
         "rating": "1234",
         "season_record": "1264",
         "all_time": "1611",
-        "1m": "+7",
-        "1y": "-40",
+        "month_dff": "+7",
+        "year_diff": "-40",
         "total": "-37",
         "League": "-37",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1454",
@@ -1893,16 +1893,16 @@
         "rating": "1217",
         "season_record": "1285",
         "all_time": "1515",
-        "1m": "-22",
-        "1y": "-169",
+        "month_dff": "-22",
+        "year_diff": "-169",
         "total": "-71",
         "League": "-66",
         "Cup": "-5",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
-        "Nr": "",
+        "Nr": null,
         "team": "Southend United",
         "form1": "+15",
         "form2": "+8",
@@ -1913,13 +1913,13 @@
         "rating": "1217",
         "season_record": "1217",
         "all_time": "1781",
-        "1m": "+1",
-        "1y": "+37",
+        "month_dff": "+1",
+        "year_diff": "+37",
         "total": "+47",
         "League": "+47",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1478",
@@ -1933,13 +1933,13 @@
         "rating": "1201",
         "season_record": "1224",
         "all_time": "1422",
-        "1m": "+43",
-        "1y": "+144",
+        "month_dff": "+43",
+        "year_diff": "+144",
         "total": "+28",
         "League": "+39",
         "Cup": "-11",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1502",
@@ -1953,13 +1953,13 @@
         "rating": "1184",
         "season_record": "1240",
         "all_time": "1486",
-        "1m": "-56",
-        "1y": "+69",
+        "month_dff": "-56",
+        "year_diff": "+69",
         "total": "+44",
         "League": "+37",
         "Cup": "+7",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1507",
@@ -1973,13 +1973,13 @@
         "rating": "1182",
         "season_record": "1205",
         "all_time": "1650",
-        "1m": "-22",
-        "1y": "+6",
+        "month_dff": "-22",
+        "year_diff": "+6",
         "total": "-1",
         "League": "-1",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1516",
@@ -1993,13 +1993,13 @@
         "rating": "1177",
         "season_record": "1181",
         "all_time": "1387",
-        "1m": "+9",
-        "1y": "+88",
+        "month_dff": "+9",
+        "year_diff": "+88",
         "total": "+82",
         "League": "+82",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1519",
@@ -2013,33 +2013,33 @@
         "rating": "1176",
         "season_record": "1176",
         "all_time": "1569",
-        "1m": "+29",
-        "1y": "+91",
+        "month_dff": "+29",
+        "year_diff": "+91",
         "total": "+97",
         "League": "+59",
         "Cup": "+38",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1526",
         "team": "Slough Town",
-        "form1": "",
-        "form2": "",
-        "form3": "",
-        "form4": "",
+        "form1": null,
+        "form2": null,
+        "form3": null,
+        "form4": null,
         "form5": "+1",
         "form6": "-8",
         "rating": "1173",
         "season_record": "1181",
         "all_time": "1193",
-        "1m": "-8",
-        "1y": "",
+        "month_dff": "-8",
+        "year_diff": null,
         "total": "-7",
-        "League": "",
+        "League": null,
         "Cup": "-7",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1537",
@@ -2053,13 +2053,13 @@
         "rating": "1167",
         "season_record": "1225",
         "all_time": "1333",
-        "1m": "-33",
-        "1y": "-78",
+        "month_dff": "-33",
+        "year_diff": "-78",
         "total": "+32",
         "League": "+34",
         "Cup": "-2",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1544",
@@ -2073,13 +2073,13 @@
         "rating": "1162",
         "season_record": "1293",
         "all_time": "1626",
-        "1m": "-10",
-        "1y": "-56",
+        "month_dff": "-10",
+        "year_diff": "-56",
         "total": "-118",
         "League": "-118",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1549",
@@ -2093,13 +2093,13 @@
         "rating": "1159",
         "season_record": "1188",
         "all_time": "1895",
-        "1m": "+6",
-        "1y": "+51",
+        "month_dff": "+6",
+        "year_diff": "+51",
         "total": "-35",
         "League": "-30",
         "Cup": "-5",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1555",
@@ -2113,13 +2113,13 @@
         "rating": "1154",
         "season_record": "1154",
         "all_time": "1275",
-        "1m": "+34",
-        "1y": "+62",
+        "month_dff": "+34",
+        "year_diff": "+62",
         "total": "+41",
         "League": "+8",
         "Cup": "+33",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1569",
@@ -2133,13 +2133,13 @@
         "rating": "1138",
         "season_record": "1219",
         "all_time": "1294",
-        "1m": "-6",
-        "1y": "-61",
+        "month_dff": "-6",
+        "year_diff": "-61",
         "total": "-69",
         "League": "-53",
         "Cup": "-16",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1578",
@@ -2151,15 +2151,15 @@
         "form5": "+2",
         "form6": "+5",
         "rating": "1125",
-        "season_record": "",
+        "season_record": null,
         "all_time": "1636",
-        "1m": "0",
-        "1y": "+11",
+        "month_dff": "0",
+        "year_diff": "+11",
         "total": "0",
-        "League": "",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "League": null,
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1590",
@@ -2173,13 +2173,13 @@
         "rating": "1114",
         "season_record": "1219",
         "all_time": "1342",
-        "1m": "-46",
-        "1y": "-73",
+        "month_dff": "-46",
+        "year_diff": "-73",
         "total": "-78",
         "League": "-78",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1593",
@@ -2193,13 +2193,13 @@
         "rating": "1111",
         "season_record": "1141",
         "all_time": "1470",
-        "1m": "-10",
-        "1y": "-92",
+        "month_dff": "-10",
+        "year_diff": "-92",
         "total": "-28",
         "League": "-28",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1622",
@@ -2213,13 +2213,13 @@
         "rating": "1086",
         "season_record": "1086",
         "all_time": "1160",
-        "1m": "+48",
-        "1y": "+1",
+        "month_dff": "+48",
+        "year_diff": "+1",
         "total": "+44",
         "League": "+45",
         "Cup": "-1",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1625",
@@ -2233,13 +2233,13 @@
         "rating": "1085",
         "season_record": "1092",
         "all_time": "1697",
-        "1m": "+18",
-        "1y": "-14",
+        "month_dff": "+18",
+        "year_diff": "-14",
         "total": "+3",
         "League": "-1",
         "Cup": "+4",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1628",
@@ -2253,13 +2253,13 @@
         "rating": "1083",
         "season_record": "1101",
         "all_time": "1374",
-        "1m": "+18",
-        "1y": "-2",
+        "month_dff": "+18",
+        "year_diff": "-2",
         "total": "+6",
         "League": "+6",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1643",
@@ -2273,33 +2273,33 @@
         "rating": "1072",
         "season_record": "1142",
         "all_time": "1278",
-        "1m": "-20",
-        "1y": "-70",
+        "month_dff": "-20",
+        "year_diff": "-70",
         "total": "-70",
         "League": "-66",
         "Cup": "-4",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1648",
         "team": "Alfreton Town",
-        "form1": "",
-        "form2": "",
-        "form3": "",
-        "form4": "",
-        "form5": "",
+        "form1": null,
+        "form2": null,
+        "form3": null,
+        "form4": null,
+        "form5": null,
         "form6": "+4",
         "rating": "1066",
         "season_record": "1066",
         "all_time": "1200",
-        "1m": "",
-        "1y": "",
+        "month_dff": null,
+        "year_diff": null,
         "total": "+4",
-        "League": "",
+        "League": null,
         "Cup": "+4",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1651",
@@ -2313,13 +2313,13 @@
         "rating": "1064",
         "season_record": "1127",
         "all_time": "1417",
-        "1m": "-2",
-        "1y": "",
+        "month_dff": "-2",
+        "year_diff": null,
         "total": "-52",
         "League": "-49",
         "Cup": "-3",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1656",
@@ -2333,13 +2333,13 @@
         "rating": "1060",
         "season_record": "1092",
         "all_time": "1092",
-        "1m": "+3",
-        "1y": "+61",
+        "month_dff": "+3",
+        "year_diff": "+61",
         "total": "+10",
         "League": "+10",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1659",
@@ -2353,13 +2353,13 @@
         "rating": "1057",
         "season_record": "1139",
         "all_time": "1253",
-        "1m": "-7",
-        "1y": "-65",
+        "month_dff": "-7",
+        "year_diff": "-65",
         "total": "-65",
         "League": "-65",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1690",
@@ -2373,33 +2373,33 @@
         "rating": "1032",
         "season_record": "1033",
         "all_time": "1621",
-        "1m": "-1",
-        "1y": "-73",
+        "month_dff": "-1",
+        "year_diff": "-73",
         "total": "+10",
-        "League": "",
+        "League": null,
         "Cup": "+10",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1713",
         "team": "Kings Lynn",
-        "form1": "",
-        "form2": "",
-        "form3": "",
-        "form4": "",
+        "form1": null,
+        "form2": null,
+        "form3": null,
+        "form4": null,
         "form5": "+19",
         "form6": "-5",
         "rating": "1010",
-        "season_record": "",
+        "season_record": null,
         "all_time": "1024",
-        "1m": "0",
-        "1y": "0",
+        "month_dff": "0",
+        "year_diff": "0",
         "total": "0",
-        "League": "",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "League": null,
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1725",
@@ -2413,13 +2413,13 @@
         "rating": "993",
         "season_record": "1027",
         "all_time": "1027",
-        "1m": "+8",
-        "1y": "",
+        "month_dff": "+8",
+        "year_diff": null,
         "total": "+26",
         "League": "+26",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1730",
@@ -2431,55 +2431,55 @@
         "form5": "-13",
         "form6": "-6",
         "rating": "987",
-        "season_record": "",
+        "season_record": null,
         "all_time": "1791",
-        "1m": "0",
-        "1y": "-34",
+        "month_dff": "0",
+        "year_diff": "-34",
         "total": "0",
-        "League": "",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "League": null,
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1732",
         "team": "Chester FC",
-        "form1": "",
-        "form2": "",
-        "form3": "",
-        "form4": "",
+        "form1": null,
+        "form2": null,
+        "form3": null,
+        "form4": null,
         "form5": "-1",
         "form6": "-5",
         "rating": "982",
         "season_record": "987",
         "all_time": "1628",
-        "1m": "-5",
-        "1y": "",
+        "month_dff": "-5",
+        "year_diff": null,
         "total": "-6",
-        "League": "",
+        "League": null,
         "Cup": "-6",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1772",
         "team": "Weymouth FC",
-        "form1": "",
-        "form2": "",
-        "form3": "",
-        "form4": "",
+        "form1": null,
+        "form2": null,
+        "form3": null,
+        "form4": null,
         "form5": "+7",
         "form6": "-1",
         "rating": "929",
-        "season_record": "",
+        "season_record": null,
         "all_time": "1323",
-        "1m": "0",
-        "1y": "0",
+        "month_dff": "0",
+        "year_diff": "0",
         "total": "0",
-        "League": "",
-        "Cup": "",
-        "Europe": "",
-        "UEFA": ""
+        "League": null,
+        "Cup": null,
+        "Europe": null,
+        "UEFA": null
       },
       {
         "Nr": "1782",
@@ -2493,13 +2493,13 @@
         "rating": "910",
         "season_record": "910",
         "all_time": "1433",
-        "1m": "+18",
-        "1y": "-87",
+        "month_dff": "+18",
+        "year_diff": "-87",
         "total": "+18",
-        "League": "",
+        "League": null,
         "Cup": "+18",
-        "Europe": "",
-        "UEFA": ""
+        "Europe": null,
+        "UEFA": null
       }
     ]
   }

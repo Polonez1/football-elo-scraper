@@ -16,13 +16,13 @@ class EloDataLoad:
             connect_type="MsSQL",
         )
 
-    def load_data(self, df, table_name):
+    def load_data(self, df, table_name, truncate: bool):
         self.sql.load_data_to_SQL(
-            df=df, table=f"{table_name}", truncate=False, batch_size=1000
+            df=df, table=f"{table_name}", truncate=truncate, batch_size=10
         )
 
-    def test():
-        pass
+    def truncate_table(self, table):
+        self.sql.read_query(f"truncate table {table}")
 
 
 if "__main__" == __name__:

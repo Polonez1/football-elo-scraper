@@ -4,10 +4,12 @@ import processing_data
 import json
 import pandas as pd
 import function_log as log
+import sql_integration as SQL
 
 
 class EloParser:
     def __init__(self):
+        self.sql_engine = SQL.EloDataLoad()
         self.url: str = "http://elofootball.com/"
         self.country_hrefs: dict = {}
         self.season_hrefs: dict = {}
@@ -83,6 +85,8 @@ class EloParser:
     def __collect_competition_data(self, season: str, country: str) -> None:
         headers, rows = self.__get_table_by_nr(table_index=0)
         df = processing_data.transform_competition_data(rows=rows, columns=headers)
+        self.sql_engine.load_data(df=df, table_name="elo_competition", truncate=False)
+
         self.__append_data(
             df=df, append_dict=self.competition_data, season=season, country=country
         )
@@ -98,6 +102,10 @@ class EloParser:
             if "Form (last 6)" in col:
                 headers, rows = self.__get_table_by_nr(table_index=i)
                 df = processing_data.transform_raking_data(columns=headers, rows=rows)
+                self.sql_engine.load_data(
+                    df=df, table_name="elo_raking", truncate=False
+                )
+
                 self.__append_data(
                     df=df, append_dict=self.ranking_data, season=season, country=country
                 )
@@ -115,11 +123,14 @@ class EloParser:
                 # )
 
     def __collect_matches_data(self, season: str, country: str) -> None:
-        for i in range(0, 4):
+        for i in range(0, 5):
             col, rows = self.__get_table_by_nr(table_index=i)
             if "Away" in col:
                 headers, rows = self.__get_table_by_nr(table_index=i)
                 df = processing_data.transform_matches_data(columns=headers, rows=rows)
+                self.sql_engine.load_data(
+                    df=df, table_name="elo_matches", truncate=False
+                )
                 self.__append_data(
                     df=df, append_dict=self.ranking_data, season=season, country=country
                 )
@@ -130,7 +141,6 @@ class EloParser:
                     json.dump(
                         self.matches_data, json_file, ensure_ascii=False, indent=2
                     )
-
             else:
                 headers = "No data"
                 rows = "No data"
@@ -141,15 +151,14 @@ class EloParser:
     def __collect_elo_data(self, hrefs: dict):
         for i in hrefs.items():
             country = i[0]
-
             print(country)
             href = i[1]
             url = self.url + href
             self.page.goto(url, timeout=60000)
             season = self.__get_season_string()
             self.__season_hrefs_collector(country=country)
-            self.__collect_competition_data(season=season, country=country)
-            self.__collect_raking_data(season=season, country=country)
+            # self.__collect_competition_data(season=season, country=country)
+            # self.__collect_raking_data(season=season, country=country)
             self.__collect_matches_data(season=season, country=country)
 
             break
