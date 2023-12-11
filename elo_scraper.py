@@ -149,6 +149,7 @@ class EloParser:
                 # )
 
     def __collect_elo_data(self, hrefs: dict):
+        self.sql_engine.truncate_tables()
         for i in hrefs.items():
             country = i[0]
             print(country)
@@ -157,8 +158,8 @@ class EloParser:
             self.page.goto(url, timeout=60000)
             season = self.__get_season_string()
             self.__season_hrefs_collector(country=country)
-            # self.__collect_competition_data(season=season, country=country)
-            # self.__collect_raking_data(season=season, country=country)
+            self.__collect_competition_data(season=season, country=country)
+            self.__collect_raking_data(season=season, country=country)
             self.__collect_matches_data(season=season, country=country)
 
             break
