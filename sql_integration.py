@@ -27,3 +27,4 @@ class EloDataLoad:
 
 if "__main__" == __name__:
     sql = EloDataLoad()
+    # commit
