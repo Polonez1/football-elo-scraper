@@ -152,7 +152,7 @@ class EloParser:
             self.__collect_raking_data(season=season, country=country)
             self.__collect_matches_data(season=season, country=country)
 
-            # break
+            break
 
     @log.elapsed_time
     def parse(self):
