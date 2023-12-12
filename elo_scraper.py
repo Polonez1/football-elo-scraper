@@ -10,6 +10,7 @@ import sql_integration as SQL
 class EloParser:
     def __init__(self):
         self.sql_engine = SQL.EloDataLoad()
+
         self.url: str = "http://elofootball.com/"
         self.country_hrefs: dict = {}
         self.season_hrefs: dict = {}
@@ -160,7 +161,7 @@ class EloParser:
                 # )
 
     def __collect_elo_data(self, hrefs: dict):
-        self.sql_engine.truncate_tables()
+        # self.sql_engine.truncate_tables()
         for i in hrefs.items():
             country = i[0]
             print(country)
@@ -173,7 +174,7 @@ class EloParser:
             self.__collect_raking_data(season=season, country=country)
             self.__collect_matches_data(season=season, country=country)
 
-            # break
+            break
 
     @log.elapsed_time
     def parse(self):
