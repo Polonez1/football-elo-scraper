@@ -84,7 +84,10 @@ class EloParser:
 
     def __collect_competition_data(self, season: str, country: str) -> None:
         headers, rows = self.__get_table_by_nr(table_index=0)
-        df = processing_data.transform_competition_data(rows=rows, columns=headers)
+
+        df = processing_data.transform_competition_data(
+            rows=rows, columns=headers, country=country
+        )
         self.sql_engine.load_data(df=df, table_name="elo_competition", truncate=False)
 
         self.__append_data(
@@ -101,7 +104,9 @@ class EloParser:
             col, rows = self.__get_table_by_nr(table_index=i)
             if "Form (last 6)" in col:
                 headers, rows = self.__get_table_by_nr(table_index=i)
-                df = processing_data.transform_raking_data(columns=headers, rows=rows)
+                df = processing_data.transform_raking_data(
+                    columns=headers, rows=rows, country=country
+                )
                 self.sql_engine.load_data(
                     df=df, table_name="elo_raking", truncate=False
                 )
@@ -115,6 +120,8 @@ class EloParser:
                     json.dump(
                         self.ranking_data, json_file, ensure_ascii=False, indent=2
                     )
+
+                break
             else:
                 headers = "No data"
                 rows = "No data"
@@ -127,7 +134,9 @@ class EloParser:
             col, rows = self.__get_table_by_nr(table_index=i)
             if "Away" in col:
                 headers, rows = self.__get_table_by_nr(table_index=i)
-                df = processing_data.transform_matches_data(columns=headers, rows=rows)
+                df = processing_data.transform_matches_data(
+                    columns=headers, rows=rows, country=country
+                )
                 self.sql_engine.load_data(
                     df=df, table_name="elo_matches", truncate=False
                 )
@@ -141,6 +150,8 @@ class EloParser:
                     json.dump(
                         self.matches_data, json_file, ensure_ascii=False, indent=2
                     )
+
+                break
             else:
                 headers = "No data"
                 rows = "No data"
@@ -162,7 +173,7 @@ class EloParser:
             self.__collect_raking_data(season=season, country=country)
             self.__collect_matches_data(season=season, country=country)
 
-            break
+            # break
 
     @log.elapsed_time
     def parse(self):
