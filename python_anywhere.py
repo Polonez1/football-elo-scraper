@@ -11,8 +11,11 @@ tunnel = sshtunnel.SSHTunnelForwarder(
 )
 tunnel.start()
 
+if tunnel.is_active:
+    print("Tunnel is active and successfully established.")
+
 engine = create_engine(
-    f"mysql+mysqldb://Polonez:lacosanostra@127.0.0.1:{tunnel.local_bind_port}/Polonez$default"
+    f"mysql+mysqlconnector://Polonez:lacosanostra@127.0.0.1:{tunnel.local_bind_port}/Polonez$default"
 )
 connection = engine.connect()
 result = connection.execute(text("SELECT 1"))
